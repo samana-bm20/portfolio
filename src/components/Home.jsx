@@ -10,7 +10,7 @@ const Home = () => {
         SAMANA MIRZA
         <span className="text-[#c5c6c7]">.</span>
       </p>
-      <p className="my-4 text-md font-medium text-[#c5c6c7] tracking-wide">
+      <p className="my-2 text-md font-medium text-[#c5c6c7] tracking-wide">
         I am a Software Engineer specializing in building things on the web.
       </p>
     </>
