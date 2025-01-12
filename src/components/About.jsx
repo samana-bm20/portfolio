@@ -19,12 +19,12 @@ import github from "../assets/skills/github.webp";
 const About = () => {
   return (
     <>
+      <div className="flex items-center">
+        <p className="text-xl md:text-3xl font-bold text-primary">ABOUT</p>
+        <div className="w-[6rem] md:w-[8rem] border-t-2 border-secondary mt-1 ml-6"></div>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="">
-          <div className="flex items-center">
-            <p className="text-2xl font-semibold text-primary">About Me</p>
-            <div className="w-[8rem] border-t-2 border-secondary mt-1 ml-6"></div>
-          </div>
           <p className="mt-5 mb-2 text-xs md:text-base text-secondary tracking-wide">
             Hello! My <span className="italic">(full)</span>name is{" "}
             <span className="text-primary">Samana Butool Mirza</span>. I am a
@@ -45,7 +45,7 @@ const About = () => {
             in June 2024.
           </p>
           <p className="my-2 text-xs md:text-base text-secondary tracking-wide">
-            While excelling in academics, I actively participated and won
+            While excelling in academics, I also actively participated and won
             competitions in design, theatre, speaking, and sports, as well as
             organized and volunteered for various college events—because{" "}
             <span className="italic">
@@ -60,7 +60,7 @@ const About = () => {
           </p>
         </div>
         <div className="ml-0 md:ml-8">
-          <p className="my-2 mt-2 md:mt-12 text-xs md:text-base text-secondary tracking-wide">
+          <p className="my-2 mt-2 md:mt-5 text-xs md:text-base text-secondary tracking-wide">
             Here are a few tools and technologies I've been working with
             recently:
           </p>
@@ -68,8 +68,8 @@ const About = () => {
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
                 src={html}
-                alt="react"
-                className="w-8 md:w-15 h-7 md:h-12 m-1"
+                alt="html"
+                className="w-7 md:w-15 h-7 md:h-8 m-1"
               />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
                 HTML
@@ -78,19 +78,15 @@ const About = () => {
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
                 src={css}
-                alt="react"
-                className=" w-8 md:w-15 h-7 md:h-12 m-1"
+                alt="css"
+                className=" w-7 md:w-15 h-7 md:h-8 m-1"
               />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
                 CSS
               </p>
             </div>
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
-              <img
-                src={js}
-                alt="react"
-                className=" w-8 md:w-15 h-7 md:h-12 m-1"
-              />
+              <img src={js} alt="js" className=" w-7 md:w-15 h-7 md:h-8 m-1" />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
                 JS
               </p>
@@ -99,7 +95,7 @@ const About = () => {
               <img
                 src={react}
                 alt="react"
-                className=" w-8 md:w-15 h-7 md:h-10 m-1"
+                className=" w-9 md:w-15 h-7 md:h-8 m-1"
               />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
                 React
@@ -108,8 +104,9 @@ const About = () => {
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
                 src={node}
-                alt="react"
-                className=" w-8 md:w-15 h-7 md:h-12 m-1"
+                alt="node"
+                className=" w-8 md:w-15 h-7 md:h9
+                 m-1"
               />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
                 Node
@@ -118,8 +115,9 @@ const About = () => {
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
                 src={express}
-                alt="react"
-                className=" w-8 md:w-15 h-7 md:h-12 m-1"
+                alt="express"
+                className=" w-8 md:w-15 h-7 md:h9
+                 m-1"
               />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
                 Express
@@ -128,8 +126,9 @@ const About = () => {
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
                 src={sql}
-                alt="react"
-                className=" w-8 md:w-15 h-7 md:h-12 m-1"
+                alt="sql"
+                className=" w-8 md:w-15 h-7 md:h9
+               m-1"
               />
               <p className="text-[0.5rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
                 SQL Server
@@ -138,8 +137,8 @@ const About = () => {
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
                 src={mongo}
-                alt="react"
-                className=" w-8 md:w-15 h-7 md:h-12 m-1"
+                alt="mongo"
+                className=" w-8 md:w-15 h-7 md:h-10 m-1"
               />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
                 MongoDB
@@ -147,48 +146,8 @@ const About = () => {
             </div>
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
-                src={staruml}
-                alt="react"
-                className=" w-8 md:w-15 h-7 md:h-12 m-1"
-              />
-              <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
-                StarUML
-              </p>
-            </div>
-            <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
-              <img
-                src={drawio}
-                alt="react"
-                className=" w-7 md:w-15 h-7 md:h-12 m-1"
-              />
-              <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
-                DrawIO
-              </p>
-            </div>
-            <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
-              <img
-                src={canva}
-                alt="react"
-                className=" w-8 md:w-15 h-7 md:h-12 m-1"
-              />
-              <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
-                Canva
-              </p>
-            </div>
-            <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
-              <img
-                src={figma}
-                alt="react"
-                className=" w-6 md:w-15 h-7 md:h-12 m-1"
-              />
-              <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
-                Figma
-              </p>
-            </div>
-            <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
-              <img
                 src={tailwind}
-                alt="react"
+                alt="tailwind"
                 className="w-8 md:w-12 h-6 md:h-8 m-1"
               />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide pt-3">
@@ -198,8 +157,8 @@ const About = () => {
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
                 src={arcgis}
-                alt="react"
-                className=" w-8 md:w-15 h-7 md:h-12 m-1"
+                alt="arcgis"
+                className=" w-8 md:w-15 h-7 md:h-10 m-1"
               />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
                 ArcGIS
@@ -208,8 +167,8 @@ const About = () => {
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
                 src={java}
-                alt="react"
-                className=" w-7 md:w-15 h-7 md:h-12 m-1"
+                alt="java"
+                className=" w-6 md:w-15 h-7 md:h-10 m-1"
               />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
                 Java
@@ -218,11 +177,54 @@ const About = () => {
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
                 src={github}
-                alt="react"
-                className=" w-8 md:w-15 h-7 md:h-12 m-1 rounded-md"
+                alt="github"
+                className=" w-8 md:w-15 h-7 md:h-10 m-1 rounded-md"
               />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
                 GitHub
+              </p>
+            </div>
+            <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
+              <img
+                src={staruml}
+                alt="staruml"
+                className=" w-8 md:w-15 h-7 md:h-9
+                 m-1"
+              />
+              <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
+                StarUML
+              </p>
+            </div>
+            <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
+              <img
+                src={canva}
+                alt="canva"
+                className=" w-8 md:w-15 h-7 md:h-9
+                 m-1"
+              />
+              <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
+                Canva
+              </p>
+            </div>
+            <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
+              <img
+                src={drawio}
+                alt="drawio"
+                className=" w-7 md:w-15 h-7 md:h-9
+                 m-1"
+              />
+              <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
+                DrawIO
+              </p>
+            </div>
+            <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
+              <img
+                src={figma}
+                alt="figma"
+                className=" w-5 md:w-15 h-7 md:h-9 m-1"
+              />
+              <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
+                Figma
               </p>
             </div>
           </div>

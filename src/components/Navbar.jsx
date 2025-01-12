@@ -3,7 +3,7 @@ import { Button } from "@mui/material";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 w-screen h-15 md:h-20 bg-bggray text-2xl font-bold py-3 px-10 shadow-xl">
+    <div className="fixed top-0 w-screen h-15 md:h-20 bg-bggray text-2xl font-bold py-3 px-14 shadow-xl">
       <div className="h-full flex items-center justify-between">
         <div className="font-bold text-3xl md:text-5xl text-primary font-inter">
           sbm<span className="text-secondary">.</span>

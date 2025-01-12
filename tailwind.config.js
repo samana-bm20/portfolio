@@ -8,6 +8,9 @@ export default {
       bgblack: "#080b0e",
       bggray: "#11171d",
     },
+    listStyleType: {
+      square: 'square',
+    },
     extend: {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
