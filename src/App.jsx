@@ -13,7 +13,7 @@ const App = () => {
       <FixedContact />
       <div
         id="content"
-        className="pt-15 md: pt-20 px-10 md:px-[5rem] lg:px-[10rem]"
+        className="pt-15 md: pt-20 px-10 md:px-[4rem] lg:px-[6rem]"
       >
         <div id="home" className="py-10 md:p-16 lg:p-[6.5rem]">
           <Home />

@@ -23,7 +23,7 @@ const About = () => {
         <p className="text-xl md:text-3xl font-bold text-primary">ABOUT</p>
         <div className="w-[6rem] md:w-[8rem] border-t-2 border-secondary mt-1 ml-6"></div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="">
           <p className="mt-5 mb-2 text-xs md:text-base text-secondary tracking-wide">
             Hello! My <span className="italic">(full)</span>name is{" "}
@@ -59,12 +59,12 @@ const About = () => {
             the mountains.
           </p>
         </div>
-        <div className="ml-0 md:ml-8">
-          <p className="my-2 mt-2 md:mt-5 text-xs md:text-base text-secondary tracking-wide">
+        <div className="ml-0 lg:ml-8">
+          <p className="my-2 mt-2 lg:mt-5 text-xs md:text-base text-secondary tracking-wide">
             Here are a few tools and technologies I've been working with
             recently:
           </p>
-          <div className="grid grid-cols-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
+          <div className="grid grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-2">
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
                 src={html}

@@ -12,8 +12,8 @@ const Projects = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row justify-between mt-10 h-full">
-        <div className="lg:w-1/2">
-          <img src={hrms} alt="HRMS" />
+        <div className="flex justify-center lg:w-1/2">
+          <img src={hrms} alt="HRMS" className="object-contain" />
         </div>
         <div className="lg:w-1/2 ml-0 lg:ml-4 flex flex-col justify-center">
           <p className="mt-4 lg:mt-0 text-primary text-md md:text-xl font-bold text-left lg:text-right">
@@ -53,8 +53,8 @@ const Projects = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row-reverse justify-between mt-10 h-full">
-        <div className="lg:w-1/2">
-          <img src={leads} alt="LMS" />
+        <div className="flex justify-center lg:w-1/2">
+          <img src={leads} alt="LMS" className="object-contain" />
         </div>
         <div className="lg:w-1/2 mr-0 lg:mr-4 flex flex-col justify-center">
           <p className="mt-4 lg:mt-0 text-primary text-md md:text-xl font-bold">
