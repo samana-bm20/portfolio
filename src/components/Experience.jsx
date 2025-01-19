@@ -30,39 +30,39 @@ const Experience = () => {
             }}
           ></div> */}
           <ul className=" list-square marker:text-primary">
-            <li className="text-xs md:text-base text-secondary">
+            <li className="text-xs md:text-base text-secondary tracking-wide">
               Built and managed fast, responsive web applications using{" "}
               <span className="text-primary">React.js </span>
               and <span className="text-primary">Node.js</span>, focusing on
               creating smooth user experiences with optimized and reliable code.
             </li>
-            <li className="text-xs md:text-base text-secondary mt-3">
+            <li className="text-xs md:text-base text-secondary tracking-wide mt-3">
               Designed and developed{" "}
               <span className="text-primary">RESTful APIs</span> that made data
               sharing seamless, improving how quickly and efficiently
               information flows between systems.
             </li>
-            <li className="text-xs md:text-base text-secondary mt-3">
+            <li className="text-xs md:text-base text-secondary tracking-wide mt-3">
               Worked closely with a team of 8-10 members to deliver advanced{" "}
               <span className="text-primary">GIS solutions</span> using ArcGIS,
               enabling users to see real-time, location-based data and meet
               client needs effectively.
             </li>
-            <li className="text-xs md:text-base text-secondary mt-3">
+            <li className="text-xs md:text-base text-secondary tracking-wide mt-3">
               Improved database performance by optimizing complex{" "}
               <span className="text-primary">SQL Server </span>
               queries and introducing{" "}
               <span className="text-primary">MongoDB</span> for scalable data
               storage, ensuring faster and more reliable software.
             </li>
-            <li className="text-xs md:text-base text-secondary mt-3">
+            <li className="text-xs md:text-base text-secondary tracking-wide mt-3">
               Wrote detailed project documentation like{" "}
               <span className="text-primary">SRS, SDD, STD,</span> and{" "}
               <span className="text-primary">RFP, </span>
               making development workflows clear and implementation strategies
               easy to follow.
             </li>
-            <li className="text-xs md:text-base text-secondary mt-3">
+            <li className="text-xs md:text-base text-secondary tracking-wide mt-3">
               Conducted thorough <span className="text-primary">testing</span>{" "}
               and <span className="text-primary">debugging</span> to deliver
               robust, error-free applications that users can trust.

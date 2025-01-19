@@ -15,6 +15,10 @@ const Navbar = () => {
               Experience
             </li>
             <li className="ml-8 hover:text-primary cursor-pointer">Projects</li>
+            <li className="ml-8 hover:text-primary cursor-pointer">
+              Testimonials
+            </li>
+            <li className="ml-8 hover:text-primary cursor-pointer">Blogs</li>
             <li className="ml-8 hover:text-primary cursor-pointer">Contact</li>
             <li className="ml-8 hover:text-primary cursor-pointer">
               <Button variant="outlined" color="primary">
