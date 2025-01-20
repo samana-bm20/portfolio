@@ -18,7 +18,7 @@ const Testimonials = () => {
             making her a valuable asset."
           </p>
           <p className="mt-4 text-xs md:text-base font-medium text-primary tracking-wide">
-            MR. YOGENDRA SINGH
+            YOGENDRA SINGH
           </p>
           <p className="text-sm md:text-md font-medium text-primary tracking-wide leading-tight">
             Sr. Software Programmer @ML Infomap Pvt Ltd
@@ -33,7 +33,7 @@ const Testimonials = () => {
             asset."
           </p>
           <p className="mt-4 text-xs md:text-base font-medium text-primary tracking-wide">
-            MR. AKASH TRIPATHI
+            AKASH TRIPATHI
           </p>
           <p className="text-sm md:text-md font-medium text-primary tracking-wide leading-tight">
             Sr. Software Engineer @Amantya Technologies
@@ -48,10 +48,10 @@ const Testimonials = () => {
             effectively highlight her well-rounded capabilities."
           </p>
           <p className="mt-4 text-xs md:text-base font-medium text-primary tracking-wide">
-            MR. MANDEEP SINGH KATRE
+            MANDEEP KATRE
           </p>
           <p className="text-sm md:text-md font-medium text-primary tracking-wide leading-tight">
-            Asst. Professor @Inderprastha Engineering College
+            Asst. Professor @IPEC, AKTU
           </p>
         </div>
 
@@ -63,7 +63,7 @@ const Testimonials = () => {
             asset."
           </p>
           <p className="mt-4 text-xs md:text-base font-medium text-primary tracking-wide">
-            MRS. NEHA GHAI
+            NEHA GHAI
           </p>
           <p className="text-sm md:text-md font-medium text-primary tracking-wide leading-tight">
             Computer Science Faculty @Mater Dei School
