@@ -5,8 +5,8 @@ export default {
     colors: {
       primary: "#66fcf1",
       secondary: "#c5c6c7",
-      bgblack: "#11171d",
-      bggray: "#090f14", //#080b0e
+      bgblack: "#0c1821",
+      bggray: "#142735", //#080b0e
     },
     listStyleType: {
       square: "square",
