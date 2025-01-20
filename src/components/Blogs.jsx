@@ -19,7 +19,7 @@ const Blogs = () => {
         </p>
         <div>
           <div className="my-5 w-full border-t-2 border-secondary"></div>
-          <div className="flex flex-col md:flex-row items-start justify-center">
+          <div className="flex flex-col md:flex-row items-center justify-center rounded-md hover:bg-bggray cursor-pointer">
             <div className="w-full md:w-2/6 px-4 py-2 flex items-start">
               <img
                 src={react}
@@ -34,19 +34,17 @@ const Blogs = () => {
               <p className="text-xs md:text-base text-secondary tracking-wide">
                 Like many budding developers, I procrastinated about starting
                 projects and learning. The sheer number of tools and frameworks
-                left me overwhelmed: Should I start with C++? Java? Or maybe
-                JavaScript? Even after I picked React, uncertainty loomed. I was
-                underconfident and unsure about how anything worked. My approach
+                left me overwhelmed. My approach
                 was simple yet disastrous...
               </p>
-              <p className="text-primary underline hover:font-medium w-fit py-2 text-xs tracking-wider cursor-pointer">
+              <p className="text-primary underline hover:font-medium w-fit py-2 text-xs tracking-wider">
                 Read More
               </p>
             </div>
           </div>
 
           <div className="my-5 w-full border-t-2 border-secondary"></div>
-          <div className="flex flex-col md:flex-row items-start justify-center">
+          <div className="flex flex-col md:flex-row items-center justify-center rounded-md hover:bg-bggray cursor-pointer">
             <div className="w-full md:w-2/6 px-4 py-2 flex items-start">
               <img src={css} alt="CSS Blog" className="object-contain py-2" />
             </div>
@@ -57,20 +55,17 @@ const Blogs = () => {
               <p className="text-xs md:text-base text-secondary tracking-wide">
                 CSS and UI libraries often feel like a tangled web of
                 complexity, but they hold the power to create stunning user
-                interfaces. When I started with CSS, it felt like an unsolvable
-                puzzle. Simple things like setting margins or understanding the
-                difference between padding and margin confused me, despite being
-                familiar with the box model. I’d often find myself stuck on
+                interfaces. I’d often find myself stuck on
                 seemingly minor issues like...
               </p>
-              <p className="text-primary underline hover:font-medium w-fit py-2 text-xs tracking-wider cursor-pointer">
+              <p className="text-primary underline hover:font-medium w-fit py-2 text-xs tracking-wider">
                 Read More
               </p>
             </div>
           </div>
 
           <div className="my-5 w-full border-t-2 border-secondary"></div>
-          <div className="flex flex-col md:flex-row items-start justify-center">
+          <div className="flex flex-col md:flex-row items-center justify-center rounded-md hover:bg-bggray cursor-pointer">
             <div className="w-full md:w-2/6 px-4 py-2 flex items-start">
               <img
                 src={database}
@@ -85,12 +80,9 @@ const Blogs = () => {
               <p className="text-xs md:text-base text-secondary tracking-wide">
                 In the world of development, understanding which database system
                 to use for a project can make a huge difference in performance,
-                scalability, and flexibility. As a developer who’s worked
-                extensively with both SQL Server and MongoDB, I’ve experienced
-                firsthand how the right choice can vary depending on the project
-                requirements. When I first started working with SQL...
+                scalability, and flexibility. When I first started working with SQL...
               </p>
-              <p className="text-primary underline hover:font-medium w-fit py-2 text-xs tracking-wider cursor-pointer">
+              <p className="text-primary underline hover:font-medium w-fit py-2 text-xs tracking-wider">
                 Read More
               </p>
             </div>
