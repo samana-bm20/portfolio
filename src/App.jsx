@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Blogs from "./components/Blogs";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -34,6 +35,9 @@ const App = () => {
         </div>
         <div id="blogs" className="py-10 md:p-16 lg:p-[6.5rem]">
           <Blogs />
+        </div>
+        <div id="contact" className="py-10 md:p-16 lg:p-[6.5rem]">
+          <Contact />
         </div>
       </div>
     </div>

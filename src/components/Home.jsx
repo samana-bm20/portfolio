@@ -1,5 +1,6 @@
 import React from "react";
 import arrowdown from "../assets/icons/arrow-down.svg";
+import { Button } from "@mui/material";
 
 const Home = () => {
   return (
@@ -22,12 +23,19 @@ const Home = () => {
         client-satisfactory and accessible applications at
         <span className="text-primary"> ML Infomap Pvt Ltd</span>.
       </p>
-      <div className="flex items-center w-fit cursor-pointer duration-500 delay-100 hover:-translate-y-1">
+      <div>
+        <a href="/SamanaMirza.pdf" download>
+          <Button variant="contained" color="primary" size="small">
+            Download Resume
+          </Button>
+        </a>
+      </div>
+      {/* <div className="mt-10 flex items-center w-fit cursor-pointer duration-500 delay-100 hover:-translate-y-1">
         <p className="text-xs md:text-sm font-medium italic text-primary font-mono">
-          Discover more about my journey
+          Discover more about me
         </p>
         <img src={arrowdown} alt="arrowdown" className="w-8 h-8 mt-1" />
-      </div>
+      </div> */}
     </>
   );
 };

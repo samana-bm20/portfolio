@@ -18,8 +18,8 @@ const Blogs = () => {
           my growth as an individual. Here are some of my latest articles:
         </p>
         <div>
-          <div className="my-5 w-full border-t-2 border-secondary"></div>
-          <div className="flex flex-col md:flex-row items-center justify-center rounded-md hover:bg-bggray cursor-pointer">
+          <div className="mt-5 w-full border-t-2 border-secondary"></div>
+          <div className="flex flex-col md:flex-row items-center justify-center hover:bg-bggray cursor-pointer">
             <div className="w-full md:w-2/6 px-4 py-2 flex items-start">
               <img
                 src={react}
@@ -43,8 +43,8 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div className="my-5 w-full border-t-2 border-secondary"></div>
-          <div className="flex flex-col md:flex-row items-center justify-center rounded-md hover:bg-bggray cursor-pointer">
+          <div className="w-full border-t-2 border-secondary"></div>
+          <div className="flex flex-col md:flex-row items-center justify-center hover:bg-bggray cursor-pointer">
             <div className="w-full md:w-2/6 px-4 py-2 flex items-start">
               <img src={css} alt="CSS Blog" className="object-contain py-2" />
             </div>
@@ -64,8 +64,8 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div className="my-5 w-full border-t-2 border-secondary"></div>
-          <div className="flex flex-col md:flex-row items-center justify-center rounded-md hover:bg-bggray cursor-pointer">
+          <div className="w-full border-t-2 border-secondary"></div>
+          <div className="flex flex-col md:flex-row items-center justify-center hover:bg-bggray cursor-pointer">
             <div className="w-full md:w-2/6 px-4 py-2 flex items-start">
               <img
                 src={database}
@@ -88,7 +88,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div className="mt-5 mb-2 w-full border-t-2 border-secondary"></div>
+          <div className="mb-2 w-full border-t-2 border-secondary"></div>
           <p className="text-xs px-4 text-secondary tracking-wide italic">
             Explore more of my writings on{" "}
             <span className="text-primary cursor-pointer">Hashnode</span> or{" "}
