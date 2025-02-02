@@ -40,6 +40,17 @@ const App = () => {
           <Contact />
         </div>
       </div>
+      <div className="w-full py-4 shadow-card">
+        <a
+          href="https://github.com/samana-bm20/portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p className="text-xs text-secondary hover:text-primary tracking-wide text-center italic cursor-pointer">
+            Designed and developed by Samana Mirza
+          </p>
+        </a>
+      </div>
     </div>
   );
 };
