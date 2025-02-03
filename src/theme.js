@@ -22,7 +22,7 @@ const theme = createTheme({
           },
           // Border color when hovering over the input
           "&:hover .MuiOutlinedInput-notchedOutline": {
-            borderColor: "#142735",
+            borderColor: "#66fcf1",
           },
         },
         // Focused state styles

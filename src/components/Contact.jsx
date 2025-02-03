@@ -55,9 +55,27 @@ const Contact = () => {
                   </p>
                 </a>
                 <div className="w-full flex md:hidden gap-4 items-center justify-center pt-2">
-                  <img src={linkedin} alt="linkedin" className="w-5 h-5" />
-                  <img src={github} alt="github" className="w-5 h-5" />
-                  <img src={hashnode} alt="hashnode" className="w-5 h-5" />
+                  <a
+                    href="https://www.linkedin.com/in/contactsamana10/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={linkedin} alt="linkedin" className="w-5 h-5" />
+                  </a>
+                  <a
+                    href="https://github.com/samana-bm20"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={github} alt="github" className="w-5 h-5" />
+                  </a>
+                  <a
+                    href="https://hashnode.com/@samana-scripts"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={hashnode} alt="hashnode" className="w-5 h-5" />
+                  </a>
                 </div>
               </div>
               <div className="pt-8">

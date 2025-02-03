@@ -64,7 +64,7 @@ const About = () => {
             Here are a few tools and technologies I've been working with
             recently:
           </p>
-          <div className="grid grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-2">
+          <div className="grid grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-2">
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
                 src={html}

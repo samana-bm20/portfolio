@@ -57,7 +57,7 @@ const Navbar = () => {
           ></div>
 
           <div
-            className={`h-dvh w-[15rem] fixed top-0 left-0 bg-bggray shadow-xl z-[  ] 
+            className={`h-dvh w-[15rem] fixed top-0 left-0 bg-bggray shadow-xl z-[10] 
                             transform transition-transform duration-500 ease-in-out 
                             ${
                               isMenuOpen ? "translate-x-0" : "translate-x-full"
@@ -69,7 +69,7 @@ const Navbar = () => {
               </p>
             </div>
             <div className="py-5 px-10">
-              <ul className="font-inter text-base font-medium text-secondary tracking-wide flex flex-col gap-6">
+              <ul className="font-inter text-sm font-medium text-secondary tracking-wide flex flex-col gap-6">
                 <li className="active:text-primary cursor-pointer" onClick={() => { handleScroll("home"); setIsMenuOpen(false); }}>Home</li>
                 <li className="active:text-primary cursor-pointer" onClick={() => { handleScroll("about"); setIsMenuOpen(false); }}>About</li>
                 <li className="active:text-primary cursor-pointer" onClick={() => { handleScroll("experience"); setIsMenuOpen(false); }}>Experience</li>
