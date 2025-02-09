@@ -1,10 +1,60 @@
-import React from "react";
-import { Button, TextField } from "@mui/material";
+import React, { useState } from "react";
+import { Button, TextField, Snackbar, Alert } from "@mui/material";
 import github from "../assets/github.svg";
 import linkedin from "../assets/linkedin.svg";
 import hashnode from "../assets/hashnode.svg";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [fullname, setFullname] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [snackbar, setSnackbar] = useState({
+    open: false,
+    message: "",
+    severity: "success",
+  });
+  const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  const isFormValid =
+    fullname.trim() !== "" && message.trim() !== "" && isValidEmail(email);
+
+  const handleSubmit = () => {
+    const serviceId = "service_kjhvrer";
+    const templateId = "template_9m4vig8";
+    const publicKey = "xu9W4sihMjJsW-KyH";
+
+    const emailParams = {
+      from_name: fullname,
+      from_email: email,
+      message: message,
+    };
+
+    emailjs
+      .send(serviceId, templateId, emailParams, publicKey)
+      .then((response) => {
+        console.log("Email sent successfully.", response);
+
+        setSnackbar({
+          open: true,
+          message: "Email sent successfully!",
+          severity: "success",
+        });
+
+        setFullname("");
+        setEmail("");
+        setMessage("");
+      })
+      .catch((error) => {
+        console.log("Error sending the email.", error);
+
+        setSnackbar({
+          open: true,
+          message: "Failed to send email. Please try again.",
+          severity: "error",
+        });
+      });
+  };
+
   return (
     <div>
       <div className="flex items-center">
@@ -18,26 +68,71 @@ const Contact = () => {
         <div className="w-full flex flex-col md:flex-row justify-between gap-8 md:gap-16">
           <div className="w-full md:w-1/2 flex flex-col gap-4 md:gap-6">
             <div>
-              <TextField required label="Full Name" size="small" fullWidth />
-            </div>
-            <div>
-              <TextField required label="Mail" size="small" fullWidth />
+              <TextField
+                required
+                label="Full Name"
+                size="small"
+                value={fullname}
+                onChange={(e) => setFullname(e.target.value)}
+                fullWidth
+              />
             </div>
             <div>
               <TextField
+                required
+                label="Mail"
+                size="small"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                error={email !== "" && !isValidEmail(email)}
+                helperText={
+                  email !== "" && !isValidEmail(email)
+                    ? "Enter a valid email"
+                    : ""
+                }
+                fullWidth
+              />
+            </div>
+            <div>
+              <TextField
+                required
                 label="Message"
                 multiline
                 rows={3}
                 size="small"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
                 fullWidth
               />
             </div>
             <div className="w-full flex flex-row-reverse">
-              <Button color="primary" variant="contained" size="small">
+              <Button
+                color="primary"
+                variant="contained"
+                size="small"
+                onClick={handleSubmit}
+                disabled={!isFormValid}
+              >
                 Send
               </Button>
             </div>
           </div>
+
+          <Snackbar
+            open={snackbar.open}
+            autoHideDuration={4000}
+            onClose={() => setSnackbar({ ...snackbar, open: false })}
+            anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+          >
+            <Alert
+              onClose={() => setSnackbar({ ...snackbar, open: false })}
+              severity={snackbar.severity}
+              sx={{ width: "100%" }}
+            >
+              {snackbar.message}
+            </Alert>
+          </Snackbar>
+
           <div className="mt-4 md:mt-0 w-full md:w-1/2">
             <div className="w-full h-full shadow-card rounded-md bg-bggray flex flex-col items-center justify-center py-6 md:py-0">
               <div>
@@ -83,7 +178,7 @@ const Contact = () => {
                   Address
                 </p>
                 <p className="text-xs md:text-base text-secondary tracking-wide text-center">
-                  Preet Vihar, Delhi, India
+                  New Delhi, Delhi, India
                 </p>
               </div>
             </div>

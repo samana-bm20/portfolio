@@ -16,7 +16,7 @@ const App = () => {
       <FixedContact />
       <div
         id="content"
-        className="pt-15 md: pt-20 px-10 md:px-[4rem] lg:px-[6rem]"
+        className="pt-15 md: pt-20 px-10 md:px-[4rem] lg:px-[6rem] scrollbar-hidden"
       >
         <div id="home" className="py-10 md:p-16 lg:p-[6.5rem]">
           <Home />
@@ -46,7 +46,7 @@ const App = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p className="text-xs text-secondary hover:text-primary tracking-wide text-center italic cursor-pointer">
+          <p className="text-[0.7rem] text-secondary hover:text-primary tracking-wide text-center italic cursor-pointer">
             Designed and developed by Samana Mirza
           </p>
         </a>

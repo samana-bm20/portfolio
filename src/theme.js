@@ -8,6 +8,9 @@ const theme = createTheme({
     secondary: {
       main: "#c5c6c7",
     },
+    action: {
+      disabledBackground: "#142735", // Custom background for disabled elements
+    },
   },
   components: {
     MuiOutlinedInput: {
