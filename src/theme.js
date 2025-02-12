@@ -38,7 +38,7 @@ const theme = createTheme({
               color: "#66fcf1", // Text color after focus
             },
           },
-        },
+        },  
       },
     },
     MuiInputLabel: {
