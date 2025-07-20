@@ -16,9 +16,9 @@ const Home = () => {
         "And though she be but little, she is fierce!"
       </p>
       <p className="my-10 text-xs md:text-base font-medium text-secondary w-full lg:w-2/3 tracking-wide">
-        I am a <span className="text-primary">Software Engineer</span>{" "}
+        I am a <span className="text-primary">Software Developer</span>{" "}
         specializing in building things on the web. I thrive on blending art and
-        logic, crafting solutions that combine creative UI designs with smart,
+        logic, crafting solutions that combine creative UI designs with logical yet{" "}
         efficient programming. Currently, I am focussed on building
         client-satisfactory and accessible applications at
         <span className="text-primary"> ML Infomap Pvt Ltd</span>.

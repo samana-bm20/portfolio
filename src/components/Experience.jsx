@@ -10,7 +10,7 @@ const Experience = () => {
       </div>
       <div>
         <p className="text-md md:text-lg mt-5 font-semibold text-secondary">
-          Software Programmer{" "}
+          Software Developer{" "}
           <span className="text-primary cursor-pointer">
             <a href="http://www.mlinfomap.com">@ML Infomap Pvt Ltd</a>
           </span>
@@ -32,8 +32,8 @@ const Experience = () => {
           <ul className=" list-square marker:text-primary">
             <li className="text-xs md:text-base text-secondary tracking-wide">
               Built and managed fast, responsive web applications using{" "}
-              <span className="text-primary">React.js </span>
-              and <span className="text-primary">Node.js</span>, focusing on
+              <span className="text-primary">Javascript (React.js </span>
+              and <span className="text-primary">Node.js)</span>, focusing on
               creating smooth user experiences with optimized and reliable code.
             </li>
             <li className="text-xs md:text-base text-secondary tracking-wide mt-3">
@@ -44,9 +44,10 @@ const Experience = () => {
             </li>
             <li className="text-xs md:text-base text-secondary tracking-wide mt-3">
               Worked closely with a team of 8-10 members to deliver advanced{" "}
-              <span className="text-primary">GIS solutions</span> using ArcGIS,
-              enabling users to see real-time, location-based data and meet
-              client needs effectively.
+              <span className="text-primary">GIS solutions</span> using{" "}
+              <span className="text-primary">ArcGIS</span> for government based
+              projects, enabling users to see real-time, location-based data and
+              meet client needs effectively.
             </li>
             <li className="text-xs md:text-base text-secondary tracking-wide mt-3">
               Improved database performance by optimizing complex{" "}

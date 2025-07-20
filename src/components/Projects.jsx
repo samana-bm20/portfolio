@@ -12,22 +12,29 @@ const Projects = () => {
         <div className="w-[6rem] md:w-[8rem] border-t-2 border-secondary mt-1 ml-6"></div>
       </div>
 
+      <div>
+        <p className="mt-5 mb-2 text-xs md:text-base text-secondary tracking-wide">
+          These are some of the major projects that I have developed so far:
+        </p>
+      </div>
+
       <div className="flex flex-col lg:flex-row justify-between mt-10 h-full">
         <div className="flex justify-center lg:w-1/2">
-          <img src={hrms} alt="HRMS" className="object-contain" />
+          <img src={cpcl} alt="HRMS" className="object-contain" />
         </div>
         <div className="lg:w-1/2 ml-0 lg:ml-4 flex flex-col justify-center">
           <p className="mt-4 lg:mt-0 text-primary text-md md:text-xl font-bold text-left lg:text-right">
-            Human Resource Management System
+            Centralized Safety Monitoring System
           </p>
           <div className="mt-4 bg-bggray rounded w-full shadow-card p-3">
             <p className="text-xs md:text-base text-secondary tracking-wide text-left lg:text-right">
-              The Human Resource Management System streamlines employee
-              management by tracking attendance, leave requests, official
-              duty/wfh records, and providing a visual calendar for attendance.
-              It maintains employee records, offers admin-side controls, and
-              generates detailed monthly and annual analytics reports on
-              attendance, working hours, and leaves.
+              The Centralized Safety Monitoring System for CPCL streamlines
+              safety operations with role-based access for requesting and
+              issuing permits along with other activities like radiography, fire
+              water network, etc. It features an admin panel for user and role
+              management, a map dashboard visualizing safety metrics and risk
+              scores, a main dashboard offering analytics, and comprehensive
+              report generation and alert notifications for informed decision-making.
             </p>
           </div>
           <div className="grid grid-cols-3 md:flex lg:grid xl:flex justify-start lg:justify-end gap-2 mt-4">
@@ -43,7 +50,7 @@ const Projects = () => {
             </div>
             <div className=" rounded-full border-primary border-2 px-1 md:px-2 py-0 md:py-1">
               <p className="text-primary text-xs md:text-sm text-center">
-                Express
+                Tailwind
               </p>
             </div>
             <div className=" rounded-full border-primary border-2 px-1 md:px-2 py-0 md:py-1">
@@ -52,12 +59,12 @@ const Projects = () => {
               </p>
             </div>
             <div className=" rounded-full border-primary border-2 px-1 md:px-2 py-0 md:py-1">
-              <p className="text-primary text-xs md:text-sm text-center">
-                Core UI
-              </p>
+              <p className="text-primary text-xs md:text-sm text-center">MUI</p>
             </div>
             <div className=" rounded-full border-primary border-2 px-1 md:px-2 py-0 md:py-1">
-              <p className="text-primary text-xs md:text-sm text-center">JWT</p>
+              <p className="text-primary text-xs md:text-sm text-center">
+                ArcGIS
+              </p>
             </div>
           </div>
         </div>
@@ -113,24 +120,23 @@ const Projects = () => {
           </div>
         </div>
       </div>
-
+   
       <div className="flex flex-col lg:flex-row justify-between mt-10 h-full">
         <div className="flex justify-center lg:w-1/2">
-          <img src={cpcl} alt="HRMS" className="object-contain" />
+          <img src={hrms} alt="HRMS" className="object-contain" />
         </div>
         <div className="lg:w-1/2 ml-0 lg:ml-4 flex flex-col justify-center">
           <p className="mt-4 lg:mt-0 text-primary text-md md:text-xl font-bold text-left lg:text-right">
-            Centralized Safety Monitoring System
+            Human Resource Management System
           </p>
           <div className="mt-4 bg-bggray rounded w-full shadow-card p-3">
             <p className="text-xs md:text-base text-secondary tracking-wide text-left lg:text-right">
-              The Centralized Safety Monitoring System for CPCL streamlines
-              safety operations with role-based access for requesting and
-              issuing permits along with other activities like radiography, fire
-              water network, etc. It features an admin panel for user and role
-              management, a map dashboard visualizing safety metrics and risk
-              scores, a main dashboard offering analytics, and comprehensive
-              report generation and alert notifications for informed decision-making.
+              The Human Resource Management System streamlines employee
+              management by tracking attendance, leave requests, official
+              duty/wfh records, and providing a visual calendar for attendance.
+              It maintains employee records, offers admin-side controls, and
+              generates detailed monthly and annual analytics reports on
+              attendance, working hours, and leaves.
             </p>
           </div>
           <div className="grid grid-cols-3 md:flex lg:grid xl:flex justify-start lg:justify-end gap-2 mt-4">
@@ -146,7 +152,7 @@ const Projects = () => {
             </div>
             <div className=" rounded-full border-primary border-2 px-1 md:px-2 py-0 md:py-1">
               <p className="text-primary text-xs md:text-sm text-center">
-                Tailwind
+                Express
               </p>
             </div>
             <div className=" rounded-full border-primary border-2 px-1 md:px-2 py-0 md:py-1">
@@ -155,12 +161,12 @@ const Projects = () => {
               </p>
             </div>
             <div className=" rounded-full border-primary border-2 px-1 md:px-2 py-0 md:py-1">
-              <p className="text-primary text-xs md:text-sm text-center">MUI</p>
+              <p className="text-primary text-xs md:text-sm text-center">
+                Core UI
+              </p>
             </div>
             <div className=" rounded-full border-primary border-2 px-1 md:px-2 py-0 md:py-1">
-              <p className="text-primary text-xs md:text-sm text-center">
-                ArcGIS
-              </p>
+              <p className="text-primary text-xs md:text-sm text-center">JWT</p>
             </div>
           </div>
         </div>

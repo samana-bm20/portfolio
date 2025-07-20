@@ -42,7 +42,8 @@ const About = () => {
             <span className="text-primary">
               APJ Abdul Kalam Technical University
             </span>{" "}
-            in June 2024.
+            in June 2024 with{" "}
+            <span className="text-primary">8.8 CGPA</span> (Silver Medalist).
           </p>
           <p className="my-2 text-xs md:text-base text-secondary tracking-wide">
             While excelling in academics, I also actively participated and won
@@ -114,13 +115,12 @@ const About = () => {
             </div>
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
-                src={express}
-                alt="express"
-                className=" w-8 md:w-15 h-7 md:h9
-                 m-1"
+                src={arcgis}
+                alt="arcgis"
+                className=" w-8 md:w-15 h-7 md:h-10 m-1"
               />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
-                Express
+                ArcGIS
               </p>
             </div>
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
@@ -136,16 +136,6 @@ const About = () => {
             </div>
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
-                src={mongo}
-                alt="mongo"
-                className=" w-8 md:w-15 h-7 md:h-10 m-1"
-              />
-              <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
-                MongoDB
-              </p>
-            </div>
-            <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
-              <img
                 src={tailwind}
                 alt="tailwind"
                 className="w-8 md:w-12 h-6 md:h-8 m-1"
@@ -156,12 +146,23 @@ const About = () => {
             </div>
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
               <img
-                src={arcgis}
-                alt="arcgis"
+                src={express}
+                alt="express"
+                className=" w-8 md:w-15 h-7 md:h9
+                 m-1"
+              />
+              <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
+                Express
+              </p>
+            </div>
+            <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
+              <img
+                src={mongo}
+                alt="mongo"
                 className=" w-8 md:w-15 h-7 md:h-10 m-1"
               />
               <p className="text-[0.6rem] md:text-[0.8rem] font-medium text-secondary tracking-wide">
-                ArcGIS
+                MongoDB
               </p>
             </div>
             <div className="bg-bggray rounded-md p-2 flex flex-col items-center justify-center w-4[rem] md:w-[6rem] shadow-card">
